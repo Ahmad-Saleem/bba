@@ -1,0 +1,268 @@
+{
+  "id": 1,
+  "company_name": "Coca Cola",
+  "city": "Dallas",
+  "state": "TX",
+  "created_at": 1599224102,
+  "updated_at": 1599224102,
+  "category": "Data Center",
+  "created_by": {
+    "id": 1,
+    "user_name": "Jon Senterfitt",
+    "email": "jon@belfortagency"
+  },
+  "contacts": [
+    {
+      "id": 1,
+      "contact_name": "Jon Senterfitt",
+      "created_at": 1599224102,
+      "phone_number": 123456789,
+      "email": "jon@belfortagency.com",
+      "company_title": "Solutions architect",
+      "notes": [
+        {
+          "id": 1,
+          "created_by": {
+            "id": 1,
+            "technician_name": "Jimmy Henderson",
+            "email": "jimmy@gmail.com"
+          },
+          "message": "This is an issue with this contact",
+          "created_at": 1599224102
+        }
+      ],
+      "activity": [
+        {
+          "id": 1,
+          "action": "Created contact",
+          "created_at": 1599224102,
+          "created_by": {
+            "id": 1,
+            "user_name": "Jon Senterfitt",
+            "email": "jon@belfortagency"
+          }
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "location_name": "Dallas, TX",
+      "address": "211 N Ervay Street Dallas TX, 75201",
+      "city": "Dallas",
+      "state": "TX",
+      "location_code": "CDT",
+      "notes": [
+        {
+          "id": 1,
+          "created_by": {
+            "id": 1,
+            "technician_name": "Jimmy Henderson",
+            "email": "jimmy@gmail.com"
+          },
+          "message": "This location is a nightmare",
+          "created_at": 1599224102
+        }
+      ],
+      "opportunities": [
+        {
+          "id": 1,
+          "created_at": 1599224102,
+          "updated_at": 1599224102,
+          "created_by": {
+            "id": 1,
+            "user_name": "Jon Senterfitt",
+            "email": "jon@belfortagency"
+          },
+          "total_amount": 45000,
+          "opportunity_stage": "Scheduled meeting",
+          "start_date": 1599224102,
+          "close_date": 1599224102,
+          "notes": [
+            {
+              "id": 1,
+              "created_by": {
+                "id": 1,
+                "technician_name": "Jimmy Henderson",
+                "email": "jimmy@gmail.com"
+              },
+              "message": "This is a massive opportunity",
+              "created_at": 1599224102
+            }
+          ],
+          "contacts": [
+            {
+              "id": 1,
+              "contact_name": "Jon Senterfitt",
+              "created_at": 1599224102,
+              "phone_number": 123456789,
+              "email": "jon@belfortagency.com",
+              "company_title": "Solutions architect"
+              // "opportunity_title": "Director of engineering"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 1,
+              "draw_push": "draw",
+              "cfm": 16000,
+              "water": true,
+              "electricity": true,
+              "calculated_price": 400
+            }
+          ],
+          "activity": [
+            {
+              "id": 1,
+              "action": "Created opportunity",
+              "created_at": 1599224102,
+              "created_by": {
+                "id": 1,
+                "user_name": "Jon Senterfitt",
+                "email": "jon@belfortagency"
+              }
+            }
+          ]
+        }
+      ],
+      "equipment": [
+        {
+          "id": 1,
+          "draw_push": "draw",
+          "cfm": 16000,
+          "water": true,
+          "electricity": true,
+          "historical_data": [
+            {
+              "id": 1,
+              "created_by": {
+                "id": 1,
+                "technician_name": "Jimmy Henderson",
+                "email": "jimmy@gmail.com"
+              },
+              "notes": [
+                {
+                  "id": 1,
+                  "created_by": {
+                    "id": 1,
+                    "technician_name": "Jimmy Henderson",
+                    "email": "jimmy@gmail.com"
+                  },
+                  "message": "Be sure to arrive early and park by ...",
+                  "created_at": 1599224102
+                }
+              ],
+              "media": [
+                {
+                  "id": 1,
+                  "source_url": "https://placehold.it/600x600.jpg",
+                  "type": "photo",
+                  "notes": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "created_at": 1599224102,
+          "opportunity": 1,
+          "start_date": 1599224102,
+          "notes": [
+            {
+              "id": 1,
+              "created_by": {
+                "id": 1,
+                "technician_name": "Jimmy Henderson",
+                "email": "jimmy@gmail.com"
+              },
+              "message": "Be sure to arrive early and park by ...",
+              "created_at": 1599224102
+            }
+          ],
+          "project_name": "Dallas, TX",
+          "estimated_duration": 8,
+          "project_stage": "Kick off call scheduled",
+          "kickoff_call": 1599224102,
+          "assigned_technicians": [
+            {
+              "id": 1,
+              "technician_name": "Jimmy Pesto",
+              "technician_email": "jimmy@gmail.com"
+            }
+          ],
+          "contacts": [
+            {
+              "id": 1,
+              "contact_name": "Jon Senterfitt",
+              "created_at": 1599224102,
+              "phone_number": 123456789,
+              "email": "jon@belfortagency.com",
+              "company_title": "Solutions architect",
+              "project_title": "Director of engineering",
+              "is_primary": true
+            }
+          ],
+          "equipment": [
+            {
+              "id": 1,
+              "complete_date": 1599224102,
+              "draw_push": "draw",
+              "cfm": 16000,
+              "water": true,
+              "electricity": true,
+              "notes": "Coil wqs damaged. need help with...",
+              "media": [
+                {
+                  "id": 1,
+                  "source_url": "https://placehold.it/600x600.jpg",
+                  "type": "photo",
+                  "notes": ""
+                }
+              ]
+            }
+          ],
+          "activity": [
+            {
+              "id": 1,
+              "action": "Created project",
+              "created_at": 1599224102,
+              "created_by": {
+                "id": 1,
+                "user_name": "Jon Senterfitt",
+                "email": "jon@belfortagency"
+              }
+            }
+          ]
+        }
+      ],
+      "activity": [
+        {
+          "id": 1,
+          "action": "Created location",
+          "created_at": 1599224102,
+          "created_by": {
+            "id": 1,
+            "user_name": "Jon Senterfitt",
+            "email": "jon@belfortagency"
+          }
+        }
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "id": 1,
+      "action": "Created company",
+      "created_at": 1599224102,
+      "created_by": {
+        "id": 1,
+        "user_name": "Jon Senterfitt",
+        "email": "jon@belfortagency"
+      }
+    }
+  ]
+}
